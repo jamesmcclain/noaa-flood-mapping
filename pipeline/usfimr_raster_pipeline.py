@@ -229,7 +229,6 @@ def get_config(runner,
                             external_loss_def=external_loss_def),
         log_tensorboard=False,
         run_tensorboard=False,
-        predict_normalize=True,
         num_workers=0,
     )
     chip_options = SemanticSegmentationChipOptions(
